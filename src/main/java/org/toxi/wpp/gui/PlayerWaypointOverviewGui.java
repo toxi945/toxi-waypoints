@@ -7,7 +7,6 @@ import nl.odalitadevelopments.menus.annotations.Menu;
 import nl.odalitadevelopments.menus.contents.MenuContents;
 import nl.odalitadevelopments.menus.contents.placeableitem.PlaceableItemsCloseAction;
 import nl.odalitadevelopments.menus.items.ClickableItem;
-import nl.odalitadevelopments.menus.items.DisplayItem;
 import nl.odalitadevelopments.menus.items.UpdatableItem;
 import nl.odalitadevelopments.menus.items.buttons.PageItem;
 import nl.odalitadevelopments.menus.iterators.MenuIteratorType;

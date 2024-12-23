@@ -2,7 +2,6 @@ package org.toxi.wpp.data;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
-import org.jetbrains.annotations.NotNull;
 
 public class Waypoint {
     private String name;

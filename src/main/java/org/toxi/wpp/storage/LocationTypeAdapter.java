@@ -52,7 +52,6 @@ public class LocationTypeAdapter extends TypeAdapter<Location> {
                 case "pitch" -> pitch = (float) in.nextDouble();
                 case "worldName" -> worldName = in.nextString();
             }
-            token = in.peek();
         }
         in.endObject();
         assert worldName != null;

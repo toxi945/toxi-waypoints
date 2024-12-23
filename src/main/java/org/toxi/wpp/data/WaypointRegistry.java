@@ -41,8 +41,6 @@ public class WaypointRegistry {
         getData(player).ifPresentOrElse(data -> {
             // add point to point list
             data.getWayPointList().add(point);
-            // re-apply sorting
-            data.getSortMechanism().prioritized(data.getWayPointList(), data.isPrioritizeFavorites());
             // callback
             callback.accept(new SimpleResult(true, Component.translatable("point.added")
                     .arguments(Component.text(point.name()))));
