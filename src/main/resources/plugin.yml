@@ -1,0 +1,6 @@
+name: Waypoints
+author: toxi
+version: 0.0.1
+api-version: 1.20
+main: org.toxi.wpp.WaypointsPlugin
+commands:
