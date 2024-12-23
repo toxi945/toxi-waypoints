@@ -1,1 +1,1 @@
-Simpel waypoint plugin for PaperMC 1.21
+Simple waypoint plugin for PaperMC 1.21
